@@ -1,0 +1,39 @@
+# ~/.config/alacritty/alacritty.toml
+# holli ryann karlstad | 2025.02.17
+
+[window]
+opacity = 0.9
+padding = { x = 3, y = 3 }
+startup_mode = "Windowed"
+
+[scrolling]
+history = 10000
+multiplier = 4
+
+[font]
+normal = { family = "Hack", style = "Normal" }
+bold = { family = "Hack", style = "Bold" }
+italic = { family = "Hack", style = "Italic" }
+bold_italic = { family = "Hack", style = "Bold Italic" }
+size = 9.0
+
+[colors.normal]
+black = "#181818"
+red = "#ac4242"
+green = "#90a959"
+yellow = "#f4bf75"
+blue = "#6a9fb5"
+magenta = "#aa759f"
+cyan = "#75b5aa"
+white = "#d8d8d8"
+
+[colors.primary]
+background = "#181818"
+foreground = "#d8d8d8"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "CellForeground"
+
+[general]
+live_config_reload = true
