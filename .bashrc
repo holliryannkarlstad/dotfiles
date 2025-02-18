@@ -1,5 +1,5 @@
 # ~/.bashrc
-# cactus dungeons | 2025.01.29
+# holli ryann karlstad | 2025.01.29
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
